@@ -15,8 +15,8 @@ class Bulut
         try {
             $this->DB = new PDO($dsn, $user, $pass);
             $this->DB->exec("SET CHARACTER SET utf8");
-        } catch (PDOExceptwion $e) {
-            echo "[HATA]: Veritabanı -".$e;
+        } catch (PDOException $e) {
+            echo "[HATA]: Veritabanı -".$e->getMessage();
         }
     }
 
