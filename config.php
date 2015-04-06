@@ -5,12 +5,11 @@ $host = "localhost";
 $dbname = "bulut";
 $user = "root";
 $pass = "root";
-$dsn = "mysql:host=$host;dbname=$dbname";
+$dsn = "mysql:host=$host;dbname=$dbname;charset=utf8";
 
 try {
     $DB = new PDO($dsn, $user, $pass);
-    $DB->exec("SET CHARACTER SET utf8");
-} catch (PDOExceptwion $e) {
+} catch (PDOException $e) {
     echo "[HATA]: Veritabanı -".$e;
 }
 
