@@ -10,6 +10,9 @@ if (isset($_POST["girisTip"]) and !empty($_POST["girisTip"])) {
         $giris = Bulut::oturumAc($mail, $sifre);
 
         if ($giris) {
+            // TODO: Burada kontrol olacak. rolid fonksiyonu'na göre
+            // include yapacak.
+
             include "adminSuper.tmpl.php";
         }
         else {
@@ -18,7 +21,7 @@ if (isset($_POST["girisTip"]) and !empty($_POST["girisTip"])) {
 
     }
     else {
-        echo "test";
+        header("Location: ../index.php?sayfa=giris");
     }
 
 }

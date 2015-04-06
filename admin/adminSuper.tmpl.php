@@ -1,3 +1,6 @@
+<?php
+// TODO: Güvenlik include.
+?>
 <!doctype html>
 <html lang="tr">
 <head>
