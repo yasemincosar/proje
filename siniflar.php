@@ -199,11 +199,12 @@ class Bulut
             $adi=$kontrol["adi"]." ".$kontrol["soyadi"];
 
             // Session oluşturumu.
-            $_SESSION['kulId']=$row_id;
-            $_SESSION['kulAdi']=$adi;
-            $_SESSION['kulMail']=$mail;
+            $_SESSION['kulId'] = $row_id;
+            $_SESSION['kulAdi'] = $adi;
+            $_SESSION['kulMail'] = $mail;
+            $_SESSION['kulRol'] = Bulut::kullaniciRolu($row_id);
 
-            var_dump($_SESSION);
+//            var_dump($_SESSION);
             return true;
 //            echo "<script> window.location.href='default.php';</script>";
 

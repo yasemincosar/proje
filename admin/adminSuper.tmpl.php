@@ -10,7 +10,9 @@
 <body>
 
 <h1>Admin Sayfası</h1>
-
+<pre>
+    <?php var_dump($_SESSION)?>
+</pre>
 
 </body>
 </html>

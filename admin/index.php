@@ -2,27 +2,27 @@
 include "../siniflar.php";
 
 if (isset($_POST["girisTip"]) and !empty($_POST["girisTip"])) {
+    // TODO: Diğer issetler de eklenecek.
 
-    if ($_POST["girisTip"] == "superAdmin") {
-        $mail = $_POST["fMail"];
-        $sifre = $_POST["fSifre"];
+    $mail = $_POST["fMail"];
+    $sifre = $_POST["fSifre"];
+    $giris = Bulut::oturumAc($mail, $sifre);
 
-        $giris = Bulut::oturumAc($mail, $sifre);
-
-        if ($giris) {
-            // TODO: Burada kontrol olacak. rolid fonksiyonu'na göre
-            // include yapacak.
-
+    if ($giris) {
+        if ($_SESSION["kulRol"] == "0") {
             include "adminSuper.tmpl.php";
         }
-        else {
-            header("Location: ../index.php?sayfa=giris");
+        elseif ($_SESSION["kulRol"] = "1") {
+            include "adminSirket.tmpl.php";
         }
-
     }
     else {
         header("Location: ../index.php?sayfa=giris");
     }
 
+}
+
+else {
+    header("Location: ../index.php?sayfa=giris");
 }
 ?>
