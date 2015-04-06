@@ -10,11 +10,11 @@ class Bulut
         $dbname = "bulut";
         $user = "root";
         $pass = "root";
-        $dsn = "mysql:host=$host;dbname=$dbname";
+        $dsn = "mysql:host=$host;dbname=$dbname;charset=utf8";
 
         try {
             $this->DB = new PDO($dsn, $user, $pass);
-            $this->DB->exec("SET CHARACTER SET utf8");
+            //$this->DB->exec("SET CHARACTER SET utf8"); bu satırda ekstra sorgu yapmak yerine yukarıda tanımladım
         } catch (PDOException $e) {
             echo "[HATA]: Veritabanı -".$e->getMessage();
         }
