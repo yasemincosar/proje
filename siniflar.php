@@ -40,9 +40,10 @@ class Bulut
         $db = $obj->DB;
 
         // Sorgunun hazırlanması.
-        $sorgu = $db->prepare("INSERT INTO kullanicilar_sirket (id, id_kullanici, id_sirket) VALUES (NULL, ?, ?)");
-        $islem = $sorgu->execute(array($id_kullanici, $id_sirket));
-
+        //$sorgu = $db->prepare("INSERT INTO kullanicilar_sirket (id, id_kullanici, id_sirket) VALUES (NULL, ?, ?)");
+        //$islem = $sorgu->execute(array($id_kullanici, $id_sirket));
+        $sorgu = $db->exec("INSERT INTO kullanicilar_sirket (id_kullanici, id_sirket) VALUES ($id_kullanici, $id_sirket)");
+        
         if ($islem) {
             return true;
         }
@@ -73,10 +74,11 @@ class Bulut
         $db = $obj->DB;
 
         // Sorgunun hazırlanması.
-        $sorgu = $db->prepare("INSERT INTO kullanicilar_roller(id, id_kullanici, id_rol) VALUES (NULL, ?, ?)");
+        //$sorgu = $db->prepare("INSERT INTO kullanicilar_roller(id, id_kullanici, id_rol) VALUES (NULL, ?, ?)");
         // !!!: Bir sebepten bindParam çalışmıyor.
-        $islem = $sorgu->execute(array($id_kullanici, $id_rol));
-
+        //$islem = $sorgu->execute(array($id_kullanici, $id_rol));
+        $sorgu = $db->prepare("INSERT INTO kullanicilar_roller(id_kullanici, id_rol) VALUES ($id_kullanici, $id_rol)");
+        
         if ($islem) {
             return true;
         }
