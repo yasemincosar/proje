@@ -1,0 +1,77 @@
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu|Raleway|Roboto);
+body {
+    background-color: #f8f8f8;
+    color: #fff;
+    font-family: Roboto;
+    font-size:16px;
+}
+* {
+    transition: 0.5s;
+}
+.login-form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    width: 300px;
+    background-color: #fff;
+    color:#333;
+    padding: 60px 30px;
+    border: 1px solid #ccc;
+}
+hr {
+    border: 2px solid #D53F4A;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+h3 {
+    font-size:25px;
+    font-family: Roboto;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #D53F4A;
+    margin: 0px;
+    padding: 0px 0px;
+}
+.input-label {
+    width: 23px;
+    height: 23px;
+    padding: 8px;
+    border: 1px solid #555;
+    border-right: 0px;
+    display: block;
+    float: left;
+}
+input {
+    padding: 10px 15px;
+    padding: 10px 5%;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height:19px;
+    /*width: 76%;*/
+    width: 228px;
+    border: 1px solid #555;
+    background-color: #f8f8f8;
+    color: #d3404a;
+    margin-bottom: 10px;
+    display: block;
+}
+input:focus {
+    background-color: #ccc;
+    color: #d3404a;
+}
+button {
+    display: block;
+    font-family: Roboto;
+    font-size: 16px;
+    border: 2px solid #b72c33;
+    background-color: #d3404a;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #B72C33;
+    cursor: pointer;
+}
+

@@ -177,13 +177,43 @@ class Bulut
         }
     }
 
+
+    public static
+    function oturumAc($mail, $sifre)
+    {
+        // Statik sınıf işlemleri.
+        $obj=new static();
+        $db=$obj->DB;
+
+        $sifre = md5(trim($sifre));
+
+        $sorgu = $db->prepare("SELECT * FROM kullanicilar WHERE mail = :mailAdres and sifre = :sifre LIMIT 1");
+        $sorgu->bindValue(':mailAdres', $mail);
+        $sorgu->bindValue(':sifre',  $sifre);
+        $sorgu->execute();
+        $kontrol = $sorgu->fetch(PDO::FETCH_ASSOC);
+
+        if (!empty($kontrol)){
+            $row_id = $kontrol['id'];
+            $mail=$kontrol["mail"];
+            $adi=$kontrol["adi"]." ".$kontrol["soyadi"];
+
+            // Session oluşturumu.
+            $_SESSION['kulId']=$row_id;
+            $_SESSION['kulAdi']=$adi;
+            $_SESSION['kulMail']=$mail;
+
+            var_dump($_SESSION);
+            return true;
+//            echo "<script> window.location.href='default.php';</script>";
+
+        }else{
+            return false;
+        }
+
+    }
+
+
 }
-
-// Kullanış örneği.
-// id=1 olan kullanıcının rolünü getir.
-echo Bulut::kullaniciRolu(1);
-
-// id=1 olan kullanıcının rolünn açıklamasını getir.
-echo Bulut::kullaniciRolu(1, $aciklama=true);
 
 ?>

@@ -26,6 +26,8 @@
     <a href="?sayfa=iletisim">İletişim</a>
     <br/>
     <a href="?sayfa=">Anasayfa.PHP</a>
+    <br/>
+    <a href="?sayfa=giris">Giriş Sayfası</a>
 
     HR'ler arası include'lar...
 

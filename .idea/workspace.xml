@@ -24,33 +24,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="fonksiyonlar.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fonksiyonlar.php">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="421" max-vertical-offset="3204">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-              <folding>
-                <marker date="1428156496125" expanded="true" signature="968:1041" placeholder="INSERT INTO ..." />
-                <marker date="1428156496125" expanded="true" signature="1699:1772" placeholder="INSERT INTO ..." />
-                <marker date="1428156496125" expanded="true" signature="2717:2790" placeholder="SELECT id_ro..kullanicilar_roller..." />
-                <marker date="1428156496125" expanded="true" signature="3848:3880" placeholder="SELECT rol F..roller..." />
-                <marker date="1428156496125" expanded="true" signature="3848:3888" placeholder="SELECT rol F..roller..." />
-                <marker date="1428156496125" expanded="true" signature="3848:3890" placeholder="SELECT rol F..roller..." />
-              </folding>
+            <state vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="198">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="siniflar.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.tmpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/login.tmpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="378">
+              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43338683" vertical-offset="0" max-vertical-offset="623">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="giris.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/!/admin/giris.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.666667" vertical-offset="54" max-vertical-offset="720">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="siniflar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/siniflar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7977528" vertical-offset="2851" max-vertical-offset="3492">
-              <caret line="186" column="4" selection-start-line="181" selection-start-column="0" selection-end-line="186" selection-end-column="45" />
+            <state vertical-scroll-proportion="-5.740741" vertical-offset="3211" max-vertical-offset="4032">
+              <caret line="187" column="34" selection-start-line="187" selection-start-column="34" selection-end-line="187" selection-end-column="34" />
               <folding>
-                <marker date="1428159145169" expanded="true" signature="1074:1155" placeholder="INSERT INTO ..." />
-                <marker date="1428159145169" expanded="true" signature="1994:2071" placeholder="INSERT INTO ..." />
-                <marker date="1428159145169" expanded="true" signature="3310:3383" placeholder="SELECT id_ro..kullanicilar_roller..." />
-                <marker date="1428159145169" expanded="true" signature="4753:4793" placeholder="SELECT rol F..roller..." />
+                <marker date="1428343954533" expanded="true" signature="1074:1155" placeholder="INSERT INTO ..." />
+                <marker date="1428343954533" expanded="true" signature="1994:2071" placeholder="INSERT INTO ..." />
+                <marker date="1428343954533" expanded="true" signature="3310:3383" placeholder="SELECT id_ro..kullanicilar_roller..." />
+                <marker date="1428343954533" expanded="true" signature="4753:4793" placeholder="SELECT rol F..roller..." />
+                <marker date="1428343954533" expanded="true" signature="5261:5338" placeholder="SELECT * FRO..kullanicilar..." />
               </folding>
             </state>
           </provider>
@@ -69,7 +93,6 @@
         <option value="$PROJECT_DIR$/inc/anasayfa.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/inc/tmpl/anasayfa.tmpl.php" />
-        <option value="$PROJECT_DIR$/index.tmpl.php" />
         <option value="$PROJECT_DIR$/static/css/style.scss" />
         <option value="$PROJECT_DIR$/inc/iletisim.php" />
         <option value="$PROJECT_DIR$/inc/tmpl/iletisim.tmpl.php" />
@@ -77,8 +100,16 @@
         <option value="$PROJECT_DIR$/inc/ulkeler.json" />
         <option value="$PROJECT_DIR$/inc/iller.json" />
         <option value="$PROJECT_DIR$/config.php" />
-        <option value="$PROJECT_DIR$/fonksiyonlar.php" />
         <option value="$PROJECT_DIR$/deneme.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/login.tmpl.php" />
+        <option value="$PROJECT_DIR$/index.tmpl.php" />
+        <option value="$PROJECT_DIR$/fonksiyonlar.php" />
+        <option value="$PROJECT_DIR$/admin/admin.php" />
+        <option value="$PROJECT_DIR$/admin/admin.tmpl.php" />
+        <option value="$PROJECT_DIR$/inc/login.tmpl.php" />
+        <option value="$PROJECT_DIR$/!/admin/main.php" />
+        <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/siniflar.php" />
       </list>
     </option>
@@ -147,6 +178,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blut.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blut.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -155,6 +200,12 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/inc" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -171,9 +222,6 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -182,9 +230,15 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="28a37a1a-9a05-4510-836b-480ec2027e68" name="Default" comment="" />
@@ -203,20 +257,20 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -235,9 +289,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -263,16 +317,46 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/fonksiyonlar.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="522" max-vertical-offset="666">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/!/admin/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3582">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1428342773745" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1428342773745" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1428342773745" expanded="true" signature="-1:-1" placeholder="SELECT id_ro..kullanicilar_roller..." />
+            <marker date="1428342773745" expanded="true" signature="-1:-1" placeholder="SELECT rol F..roller..." />
+            <marker date="1428342773745" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..kullanicilar..." />
+            <marker date="1428342773745" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..kullanicilar..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/siniflar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2851" max-vertical-offset="3492">
+          <caret line="186" column="4" selection-start-line="181" selection-start-column="0" selection-end-line="186" selection-end-column="45" />
+          <folding>
+            <marker date="1428343954533" expanded="true" signature="1074:1155" placeholder="INSERT INTO ..." />
+            <marker date="1428343954533" expanded="true" signature="1994:2071" placeholder="INSERT INTO ..." />
+            <marker date="1428343954533" expanded="true" signature="3310:3383" placeholder="SELECT id_ro..kullanicilar_roller..." />
+            <marker date="1428343954533" expanded="true" signature="4753:4793" placeholder="SELECT rol F..roller..." />
+            <marker date="1428343954533" expanded="true" signature="5261:5338" placeholder="SELECT * FRO..kullanicilar..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fonksiyonlar.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="421" max-vertical-offset="3204">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <marker date="1428156496125" expanded="true" signature="968:1041" placeholder="INSERT INTO ..." />
-            <marker date="1428156496125" expanded="true" signature="1699:1772" placeholder="INSERT INTO ..." />
-            <marker date="1428156496125" expanded="true" signature="2717:2790" placeholder="SELECT id_ro..kullanicilar_roller..." />
-            <marker date="1428156496125" expanded="true" signature="3848:3880" placeholder="SELECT rol F..roller..." />
-            <marker date="1428156496125" expanded="true" signature="3848:3888" placeholder="SELECT rol F..roller..." />
-            <marker date="1428156496125" expanded="true" signature="3848:3890" placeholder="SELECT rol F..roller..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -281,10 +365,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3492">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1428159145169" expanded="true" signature="1074:1155" placeholder="INSERT INTO ..." />
-            <marker date="1428159145169" expanded="true" signature="1994:2071" placeholder="INSERT INTO ..." />
-            <marker date="1428159145169" expanded="true" signature="3310:3383" placeholder="SELECT id_ro..kullanicilar_roller..." />
-            <marker date="1428159145169" expanded="true" signature="4753:4793" placeholder="SELECT rol F..roller..." />
+            <marker date="1428343954533" expanded="true" signature="1074:1155" placeholder="INSERT INTO ..." />
+            <marker date="1428343954533" expanded="true" signature="1994:2071" placeholder="INSERT INTO ..." />
+            <marker date="1428343954533" expanded="true" signature="3310:3383" placeholder="SELECT id_ro..kullanicilar_roller..." />
+            <marker date="1428343954533" expanded="true" signature="4753:4793" placeholder="SELECT rol F..roller..." />
+            <marker date="1428343954533" expanded="true" signature="5261:5338" placeholder="SELECT * FRO..kullanicilar..." />
           </folding>
         </state>
       </provider>
@@ -293,9 +378,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="432">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="e#6#78#0#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -303,9 +386,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="846">
           <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-          <folding>
-            <element signature="e#6#167#0#PHP" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -313,14 +394,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1674">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1428156496125" expanded="true" signature="968:1041" placeholder="INSERT INTO ..." />
-            <marker date="1428156496125" expanded="true" signature="1699:1772" placeholder="INSERT INTO ..." />
-            <marker date="1428156496125" expanded="true" signature="2717:2790" placeholder="SELECT id_ro..kullanicilar_roller..." />
-            <marker date="1428156496125" expanded="true" signature="3848:3880" placeholder="SELECT rol F..roller..." />
-            <marker date="1428156496125" expanded="true" signature="3848:3888" placeholder="SELECT rol F..roller..." />
-            <marker date="1428156496125" expanded="true" signature="3848:3890" placeholder="SELECT rol F..roller..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -328,7 +402,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="684">
           <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -336,9 +409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="288">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="e#6#115#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -346,9 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="306">
           <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-          <folding>
-            <element signature="e#6#45#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -363,9 +430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="288">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="e#6#115#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -387,9 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="306">
           <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
-          <folding>
-            <element signature="e#6#45#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -397,26 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="198">
           <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.tmpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="846">
-          <caret line="19" column="56" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="56" />
-          <folding>
-            <element signature="e#6#167#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3333335" vertical-offset="0" max-vertical-offset="432">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="e#6#78#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -431,35 +472,115 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="702">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fonksiyonlar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="421" max-vertical-offset="3204">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state vertical-scroll-proportion="-16.074074" vertical-offset="16" max-vertical-offset="720">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11556982" vertical-offset="0" max-vertical-offset="623">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5232745" vertical-offset="34" max-vertical-offset="720">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/!/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="650">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/adminSuper.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23960066" vertical-offset="0" max-vertical-offset="601">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="198">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/adminSirket.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="628">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/login.tmpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="378">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/!/admin/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05778491" vertical-offset="2862" max-vertical-offset="3582">
+          <caret line="161" column="0" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
           <folding>
-            <marker date="1428156496125" expanded="true" signature="968:1041" placeholder="INSERT INTO ..." />
-            <marker date="1428156496125" expanded="true" signature="1699:1772" placeholder="INSERT INTO ..." />
-            <marker date="1428156496125" expanded="true" signature="2717:2790" placeholder="SELECT id_ro..kullanicilar_roller..." />
-            <marker date="1428156496125" expanded="true" signature="3848:3880" placeholder="SELECT rol F..roller..." />
-            <marker date="1428156496125" expanded="true" signature="3848:3888" placeholder="SELECT rol F..roller..." />
-            <marker date="1428156496125" expanded="true" signature="3848:3890" placeholder="SELECT rol F..roller..." />
+            <marker date="1428342773745" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1428342773745" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1428342773745" expanded="true" signature="-1:-1" placeholder="SELECT id_ro..kullanicilar_roller..." />
+            <marker date="1428342773745" expanded="true" signature="-1:-1" placeholder="SELECT rol F..roller..." />
+            <marker date="1428342773745" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..kullanicilar..." />
+            <marker date="1428342773745" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..kullanicilar..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/!/admin/giris.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.666667" vertical-offset="54" max-vertical-offset="720">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/siniflar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7977528" vertical-offset="2851" max-vertical-offset="3492">
-          <caret line="186" column="4" selection-start-line="181" selection-start-column="0" selection-end-line="186" selection-end-column="45" />
+        <state vertical-scroll-proportion="-5.740741" vertical-offset="3211" max-vertical-offset="4032">
+          <caret line="187" column="34" selection-start-line="187" selection-start-column="34" selection-end-line="187" selection-end-column="34" />
           <folding>
-            <marker date="1428159145169" expanded="true" signature="1074:1155" placeholder="INSERT INTO ..." />
-            <marker date="1428159145169" expanded="true" signature="1994:2071" placeholder="INSERT INTO ..." />
-            <marker date="1428159145169" expanded="true" signature="3310:3383" placeholder="SELECT id_ro..kullanicilar_roller..." />
-            <marker date="1428159145169" expanded="true" signature="4753:4793" placeholder="SELECT rol F..roller..." />
+            <marker date="1428343954533" expanded="true" signature="1074:1155" placeholder="INSERT INTO ..." />
+            <marker date="1428343954533" expanded="true" signature="1994:2071" placeholder="INSERT INTO ..." />
+            <marker date="1428343954533" expanded="true" signature="3310:3383" placeholder="SELECT id_ro..kullanicilar_roller..." />
+            <marker date="1428343954533" expanded="true" signature="4753:4793" placeholder="SELECT rol F..roller..." />
+            <marker date="1428343954533" expanded="true" signature="5261:5338" placeholder="SELECT * FRO..kullanicilar..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43338683" vertical-offset="0" max-vertical-offset="623">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
