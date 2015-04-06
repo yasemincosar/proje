@@ -9,6 +9,7 @@ $dsn = "mysql:host=$host;dbname=$dbname";
 
 try {
     $DB = new PDO($dsn, $user, $pass);
+    $DB->exec("SET CHARACTER SET utf8");
 } catch (PDOExceptwion $e) {
     echo "[HATA]: Veritabanı -".$e;
 }
