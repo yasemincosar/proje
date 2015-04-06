@@ -12,6 +12,7 @@
 <h1>Admin Sayfası</h1>
 <pre>
     <?php var_dump($_SESSION)?>
+    <a href="cikis.php">Cikis</a>
 </pre>
 
 </body>

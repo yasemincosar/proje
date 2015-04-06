@@ -1,4 +1,5 @@
 <?php
+session_start();
 include "../siniflar.php";
 
 if (isset($_POST["girisTip"]) and !empty($_POST["girisTip"])) {
