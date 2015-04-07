@@ -180,7 +180,7 @@ class Bulut
 
 
     public static
-    function oturumAc($mail, $sifre, $hatirla)
+    function oturumAc($mail, $sifre, $hatirla=false) //default false olsun. gelince değiştiririz.
     {
         // Statik sınıf işlemleri.
         $obj=new static();
@@ -220,7 +220,9 @@ class Bulut
     public static
     function beniHatirlaKontrol()
     {
-    	return isset($_COOKIE["hatirla"]) && $_COOKIE[hatirla] ? true : false;
+    	// return isset($_COOKIE["hatirla"]) && $_COOKIE[hatirla] ? true : false;
+    	return isset($_COOKIE["hatirla"]) && $_COOKIE["hatirla"];
+    	// sadece return demek yeterli. Çünkü buradan direkt true veya false gelecek.
     }
 
 
