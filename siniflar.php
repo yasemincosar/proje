@@ -216,6 +216,12 @@ class Bulut
         }
 
     }
+    
+    public static
+    function beniHatirlaKontrol()
+    {
+    	return isset($_COOKIE["hatirla"]) && $_COOKIE[hatirla] ? true : false;
+    }
 
 
 }
