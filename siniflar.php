@@ -180,12 +180,13 @@ class Bulut
 
 
     public static
-    function oturumAc($mail, $sifre)
+    function oturumAc($mail, $sifre, $hatirla)
     {
         // Statik sınıf işlemleri.
         $obj=new static();
         $db=$obj->DB;
-
+        
+	$mail = trim($mail);
         $sifre = md5(trim($sifre));
 
         $sorgu = $db->prepare("SELECT * FROM kullanicilar WHERE mail = :mailAdres and sifre = :sifre LIMIT 1");
@@ -204,6 +205,7 @@ class Bulut
             $_SESSION['kulAdi'] = $adi;
             $_SESSION['kulMail'] = $mail;
             $_SESSION['kulRol'] = Bulut::kullaniciRolu($row_id);
+            setcookie("hatirla", true, time() + 60 * 60 * 24);
 
 //            var_dump($_SESSION);
             return true;
